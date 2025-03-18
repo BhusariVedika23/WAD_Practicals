@@ -13,8 +13,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent,
-    HomeComponent
+    RegisterComponent
+    
   ],
   imports: [
     BrowserModule,
