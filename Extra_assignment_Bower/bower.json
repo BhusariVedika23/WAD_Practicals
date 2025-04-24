@@ -1,0 +1,22 @@
+{
+  "name": "Extra_assignment_Bower",
+  "homepage": "https://github.com/BhusariVedika23/WAD_Practicals",
+  "authors": [
+    "BhusariVedika23 <vedikabhusari22@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "jquery": "^3.7.1"
+  }
+}

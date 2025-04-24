@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bower Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .navbar-brand {
+      font-weight: 600;
+      color: #28a745;
+    }
+
+    .hero-section {
+      background-color: #d8f3dc;
+      border-radius: 10px;
+      padding: 3rem 2rem;
+      margin-top: 20px;
+    }
+
+    .hero-section img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .category-card img {
+      height: 100px;
+      object-fit: contain;
+    }
+
+    .category-card {
+      border: 1px solid #e2e2e2;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .category-card:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">🛒 FreshCart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <form class="d-flex mx-auto w-50">
+          <input class="form-control me-2" type="search" placeholder="Search for products..." aria-label="Search">
+        </form>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Cart</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container hero-section mt-4">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="mb-3">SuperMarket Daily <br><strong>Fresh Grocery</strong></h1>
+        <p>Introduced a new model for online grocery shopping and convenient home delivery.</p>
+        <a href="#" class="btn btn-dark mt-3">Shop Now</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="shopping1.jpg" alt="Grocery banner">
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Categories -->
+  <div class="container my-5">
+    <h3 class="mb-4">Featured Categories</h3>
+    <div class="row g-3">
+      <!-- Example category cards -->
+      <div class="col-6 col-md-2">
+        <div class="p-3 bg-white text-center category-card">
+          <img src="dairy1.jpg" alt="Dairy">
+          <p class="mt-2">Dairy & Breads</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="p-3 bg-white text-center category-card">
+          <img src="snacks.jpg" alt="Snacks">
+          <p class="mt-2">Snack & Munchies</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="p-3 bg-white text-center category-card">
+          <img src="biscuit.jpeg" alt="Biscuits">
+          <p class="mt-2">Bakery & Biscuits</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="p-3 bg-white text-center category-card">
+          <img src="instant.jpg" alt="Instant Food">
+          <p class="mt-2">Instant Food</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="p-3 bg-white text-center category-card">
+          <img src="tea.jpeg" alt="Tea">
+          <p class="mt-2">Tea, Coffee & Drinks</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="p-3 bg-white text-center category-card">
+          <img src="atta.jpg" alt="Atta">
+          <p class="mt-2">Atta, Rice & Dal</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
